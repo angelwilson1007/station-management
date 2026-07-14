@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import AddBooking from './components/AddBooking'
+import ViewBooking from './components/ViewBooking'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <AddBooking/>
+      <ViewBooking/>
     </>
   )
 }
